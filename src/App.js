@@ -1,13 +1,13 @@
 
 import './App.css';
-import Header from  './components/Header'
+
 
 
 function App() {
   return (
     <div className="App" style={{marginTop: '20px'}}>
       
-       <Header />
+      <h1>hello</h1>
       
     </div>
   );
