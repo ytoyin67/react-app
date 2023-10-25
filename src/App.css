@@ -36,6 +36,15 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
+.grid{
+ display: grid;
+ grid-template-columns: repeat(2,1fr); 
+}
+
+.max-width{
+  width: 90%;
+}
+
     /* HERO */
 
   .hero{
@@ -43,8 +52,10 @@ h1,h2,h3,h4,h5,h6{
     overflow-x: hidden;
   }  
 
-
-
+.bold-h1{
+  font-size: 2.6rem;
+  font-weight: bold;
+}
 
 
 
@@ -59,5 +70,12 @@ h1,h2,h3,h4,h5,h6{
   @media(max-width: 700px){
     .hero{
       background: white;
+    }
+
+
+
+    .grid{
+      grid-template-columns: 1fr;
+  
     }
   }
