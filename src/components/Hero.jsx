@@ -11,7 +11,7 @@ function Hero() {
           </span>  
           <h1 className="ps-3">
             <span className="d-block blueText pb-1 h1">SKAINO</span>
-            <span className="d-block greenText  h1">COPORA</span>
+            <span className="d-block greenText  h1">CORPORA</span>
           </h1>
         </div>
     </div>
