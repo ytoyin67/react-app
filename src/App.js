@@ -1,13 +1,23 @@
 
 import './App.css';
 
+import {Hero,Showcase,Consultant,Stats,Projects,Services,Reviews,Team,Footer} from "./components/Files"
+
 
 
 function App() {
   return (
-    <div className="App" style={{marginTop: '20px'}}>
+    <div>
       
-      <h1>hello</h1>
+      <Hero />
+      <Consultant />
+      <Showcase />
+      <Stats />
+      <Projects />
+      <Services />
+      <Reviews />
+      <Team />
+      <Footer />
       
     </div>
   );

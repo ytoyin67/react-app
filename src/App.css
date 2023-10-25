@@ -1,7 +1,63 @@
-.App {
-  text-align: center;
+*,::before,::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 li{
   list-style: none;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+p {
+  padding: 10px 0;
+
+}
+h1,h2,h3,h4,h5,h6{
+  padding: 10px 0;
+}
+
+
+.greenText{
+  color: #0fd2a8;
+}
+.bgGreen {
+  background-color: #0fd2a8;
+}
+
+.blueText{
+  color: #0d3675;
+}
+.bgBlue {
+  background-color: #0d3675;
+}
+
+
+    /* HERO */
+
+  .hero{
+    background: url('./images/image5.jpg') no-repeat center center/cover;
+    overflow-x: hidden;
+  }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media(max-width: 700px){
+    .hero{
+      background: white;
+    }
+  }
