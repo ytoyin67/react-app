@@ -7,6 +7,9 @@
 li{
   list-style: none;
 }
+img{
+  width: 100%;
+}
 
 a{
   text-decoration: none;
@@ -39,22 +42,81 @@ h1,h2,h3,h4,h5,h6{
 .grid{
  display: grid;
  grid-template-columns: repeat(2,1fr); 
+ justify-content: center;
+
 }
 
 .max-width{
   width: 90%;
 }
 
+.border-radius{
+  border-radius: 25px;
+  
+}
+ .hero-h1{
+  max-width: 400px;
+ }
     /* HERO */
 
   .hero{
     background: url('./images/image5.jpg') no-repeat center center/cover;
-    overflow-x: hidden;
+    overflow: hidden;
+    
   }  
 
 .bold-h1{
   font-size: 2.6rem;
   font-weight: bold;
+}
+.woman{
+  max-height: 600px;
+  object-fit: fill;
+  position: relative;
+  width: 100%;
+  right: -330px;
+  top: -90px;
+}
+
+.largest{
+  padding-left: 65px;
+}
+.text-dark{
+  width: 55%;
+  text-align: left;
+ padding-left: 0;
+  
+  
+}
+
+
+
+
+  
+@media(max-width: 1200px){
+  .woman{
+    right: -100px;
+  }
+}
+  
+@media(max-width: 900px){
+  .woman{
+    right: -100px;
+  }
+}
+
+
+@media(max-width: 830px){
+
+  .woman{
+   
+    
+    right: -60px;
+    top: -70px;
+  }
+  .largest{
+    padding-left: 20px;
+  }
 }
 
 
@@ -63,19 +125,37 @@ h1,h2,h3,h4,h5,h6{
 
 
 
-
-
-
-
-  @media(max-width: 700px){
+  @media(max-width: 800px){
     .hero{
       background: white;
+      height: auto;
     }
 
-
+    .woman{
+      right: 0;
+      top: 20px;
+      max-height: 450px;
+      margin-bottom: 20px;
+    }
 
     .grid{
       grid-template-columns: 1fr;
   
     }
+    
+    .largest{
+      padding-left: 10px;
+       order: 2;
+       margin-top: 15px;
+    }
+
+    .text-dark{
+      width: 100%;
+      text-align: left;
+     padding-left: 0;
+      
+      
+    }
   }
+
+
